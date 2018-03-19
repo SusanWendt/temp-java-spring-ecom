@@ -8,11 +8,11 @@ import org.springframework.stereotype.Component;
 public class Foo {
 	
 	@Resource 
-	private String bettlebrox;
+	private String beetlebrox;
 
 	@Override
 	public String toString() {
-		return "Foo [bettlebrox=" + bettlebrox + "]";
+		return "Foo [beetlebrox=" + beetlebrox + "]";
 	} 
 
 	
