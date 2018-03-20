@@ -12,11 +12,11 @@ public class BrowseController {
 
 	@RequestMapping("/products")
 	public Collection<Product> getProducts() {
-		return Collections.singleton(new Product("name"));
+		return Collections.singleton(new Product("arbitrary product name"));
 	}
 
 	@RequestMapping("/products/{id}")
-	public Product getProduct(@PathVariable(name = "id") long id) {
-		return new Product("name");
+	public Product getProduct(@PathVariable(name="id") long id) {
+		return new Product("arbitrary product");
 	}
 }
